@@ -6,7 +6,7 @@ return {
       theme = 'hyper',
       config = {
         week_header = {
-          enable = false,
+          enable = true,
         },
 
         shortcut = {},
@@ -14,7 +14,7 @@ return {
       },
 
       preview = {
-        command = 'fortune | cowsay',
+        command = '',
         file_path = '',
         file_height = 10,
         file_width = 60,
